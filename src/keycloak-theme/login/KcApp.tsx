@@ -4,6 +4,7 @@ import Fallback, { type PageProps } from "keycloakify/login";
 import type { KcContext } from "./kcContext";
 import { useI18n } from "./i18n";
 import Template from "./Template";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Login = lazy(() => import("./pages/Login"));
 // If you can, favor register-user-profile.ftl over register.ftl, see: https://docs.keycloakify.dev/realtime-input-validation
